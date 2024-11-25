@@ -53,13 +53,20 @@
         <option value="tha">Thailand</option>
         <option value="zsm">Malaysian Malay</option>
     </select>
- 
-  <div id="instructions" style="background-color: yellow; border: 1px solid black; padding: 10px;">
+
+  <div id="instructions" style="background-color: yellow; border: 1px solid black; padding: 10px;display: none;">
   <p>INSTRUCTIONS: You will participate in a reading experiment. First, select your native language. You will find different levels of support for reading comprehension with translations on the words or on clickable links. You will be able to choose the amount of help you need by adjusting the control at the top. At the end of reading, please answer the 15 questions without returning to the story. Your answers will help us better understand how you learn a new language. Then, provide your email or name and click "Send." We will report the number of correct answers and the full text with all translations. Thank you for your participation.</p>
 </div>
+
 <p>
-<h3 style="color: red">¡Gracias!</h3>
-<h4 style="color: red">### respuestas correctas</h4>
+
+<h3 style="color: red">¡Gracias! Disfruta todo el cuento con traducciones.</h3>
+<h4 style="color: red"><span id="correct"></span> respuestas correctas</h4>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const myParameter = urlParams.get('correct');
+    document.getElementById('correct').textContent = myParameter;
+  </script>
 <h2>El <ruby annotationId="A1"><rb>almohadón</rb><rt data-frequency="6">pillow</rt></ruby> de <ruby annotationId="A2"><rb>plumas</rb><rt data-frequency="28">feather</rt></ruby></h2><br>
 <h3>por <a href="https://es.wikipedia.org/wiki/Horacio_Quiroga" target="_blank">Horacio Quiroga</a></h3><br>
 Su <ruby annotationId="A3"><rb>luna de miel</rb><rt data-frequency="37">honeymoon</rt></ruby> fue un <ruby annotationId="A4"><rb>largo</rb><rt data-frequency="45">long</rt></ruby> <ruby annotationId="A5"><rb>escalofrío</rb><rt data-frequency="27">fear</rt></ruby>. <ruby annotationId="A6"><rb>Rubia</rb><rt data-frequency="31">blond</rt></ruby>, <ruby annotationId="A7"><rb>angelical</rb><rt data-frequency="27">angelic</rt></ruby> y <ruby annotationId="A8"><rb>tímida</rb><rt data-frequency="29">diffident</rt></ruby>, el <ruby annotationId="A9"><rb>carácter</rb><rt data-frequency="37">personality</rt></ruby> <ruby annotationId="A10"><rb>duro</rb><rt data-frequency="47">rigorous</rt></ruby> de su <ruby annotationId="A11"><rb>marido</rb><rt data-frequency="35">husband</rt></ruby> <ruby annotationId="A12"><rb>heló</rb><rt data-frequency="12">freeze</rt></ruby> sus <ruby annotationId="A13"><rb>soñadas</rb><rt data-frequency="16">dream</rt></ruby> <ruby annotationId="A14"><rb>niñerías</rb><rt data-frequency="18">childishness</rt></ruby> de <ruby annotationId="A15"><rb>novia</rb><rt data-frequency="48">bride</rt></ruby>. Ella lo <ruby annotationId="A16"><rb>quería</rb><rt data-frequency="45">love</rt></ruby> <ruby annotationId="A17"><rb>mucho</rb><rt data-frequency="55">a_lot</rt></ruby>, <ruby annotationId="A18"><rb>sin embargo</rb><rt data-frequency="38">however</rt></ruby>, <ruby annotationId="A19"><rb>a veces</rb><rt data-frequency="53">sometimes</rt></ruby> con un <ruby annotationId="A20"><rb>ligero</rb><rt data-frequency="31">light</rt></ruby> <ruby annotationId="A21"><rb>estremecimiento</rb><rt data-frequency="7">tremor</rt></ruby> cuando <ruby annotationId="A22"><rb>volviendo</rb><rt data-frequency="39">return</rt></ruby> de <ruby annotationId="A23"><rb>noche</rb><rt data-frequency="54">night</rt></ruby> <ruby annotationId="A24"><rb>juntos</rb><rt data-frequency="48">together</rt></ruby> por la <ruby annotationId="A25"><rb>calle</rb><rt data-frequency="49">street</rt></ruby>, echaba una <ruby annotationId="A26"><rb>furtiva</rb><rt data-frequency="10">furtive</rt></ruby> <ruby annotationId="A27"><rb>mirada</rb><rt data-frequency="45">glance</rt></ruby> a la <ruby annotationId="A28"><rb>alta</rb><rt data-frequency="41">tall</rt></ruby> <ruby annotationId="A29"><rb>estatura</rb><rt data-frequency="32">stature</rt></ruby> de Jordán, <ruby annotationId="A30"><rb>mudo</rb><rt data-frequency="31">speechless</rt></ruby> desde <ruby annotationId="A31"><rb>hacía</rb><rt data-frequency="38">ago</rt></ruby> <ruby annotationId="A32"><rb>una</rb><rt data-frequency="62">one</rt></ruby> <ruby annotationId="A33"><rb>hora</rb><rt data-frequency="52">hour</rt></ruby>. Él, <ruby annotationId="A34"><rb>por su parte</rb><rt data-frequency="50">respectively</rt></ruby>, la <ruby annotationId="A35"><rb>amaba</rb><rt data-frequency="37">love</rt></ruby> <ruby annotationId="A36"><rb>profundamente</rb><rt data-frequency="33">profoundly</rt></ruby>, sin <ruby annotationId="A37"><rb>darlo a conocer</rb><rt data-frequency="34">unwrap</rt></ruby>.<br>
@@ -118,8 +125,9 @@ Jordán lo <ruby annotationId="A520"><rb>levantó</rb><rt data-frequency="31">ra
 <br>
 Estos <ruby annotationId="A589"><rb>parásitos</rb><rt data-frequency="26">parasite</rt></ruby> de las <ruby annotationId="A590"><rb>aves</rb><rt data-frequency="32">bird</rt></ruby>, <ruby annotationId="A591"><rb>diminutos</rb><rt data-frequency="20">bantam</rt></ruby> en el <ruby annotationId="A592"><rb>medio</rb><rt data-frequency="0">environment</rt></ruby> <ruby annotationId="A593"><rb>habitual</rb><rt data-frequency="28">usual</rt></ruby>, <ruby annotationId="A594"><rb>llegan a adquirir</rb><rt data-frequency="0">reach</rt></ruby> en <ruby annotationId="A595"><rb>ciertas</rb><rt data-frequency="38">certain</rt></ruby> <ruby annotationId="A596"><rb>condiciones</rb><rt data-frequency="38">condition</rt></ruby> <ruby annotationId="A597"><rb>proporciones</rb><rt data-frequency="0">proportion</rt></ruby> <ruby annotationId="A598"><rb>enormes</rb><rt data-frequency="31">enormous</rt></ruby>. La <ruby annotationId="A472"><rb>sangre</rb><rt data-frequency="42">blood</rt></ruby> <ruby annotationId="A600"><rb>humana</rb><rt data-frequency="39">human</rt></ruby> <ruby annotationId="A601"><rb>parece</rb><rt data-frequency="49">look</rt></ruby> serles <ruby annotationId="A602"><rb>particularmente</rb><rt data-frequency="24">particularly</rt></ruby> <ruby annotationId="A603"><rb>favorable</rb><rt data-frequency="0">favorable</rt></ruby>, y no es <ruby annotationId="A604"><rb>raro</rb><rt data-frequency="45">unusual</rt></ruby> <ruby annotationId="A605"><rb>hallarlos</rb><rt data-frequency="0">find</rt></ruby> en los <ruby annotationId="A606"><rb>almohadones</rb><rt data-frequency="8">pillow</rt></ruby> de <ruby annotationId="A607"><rb>pluma</rb><rt data-frequency="30">feather</rt></ruby>.<br>
 </p>
-<br><h2>Preguntas</h2>
-<form id="quizForm" method="post" target="_blank" action="https://script.google.com/macros/s/AKfycbzdny7Eh8ZC7veZMiKXcQQv2bXzWTs92iZyIM6Y8I-OjqASHh_6ShV4jbiCATpFEDndCA/exec"><div id="p3_q5" data-question-id="Pregunta1" required>
+<br>FIN<br>
+<form id="quizForm" method="post" target="_blank" action="https://script.google.com/macros/s/AKfycbyg6FivB0Yb2MX-7Tn3w9bUqurqNEigkoPxm5qGtvWB0gmzHV0-3NtvxXo6UzrNmEZNZA/exec"><h2>Preguntas</h2>
+<div id="p3_q5" data-question-id="Pregunta1" required>
  <p>1. "La sangre humana parece serles particularmente favorable, y no es raro <span style="color: red; font-weight: bold;">hallarlos</span> en los almohadones de pluma."</p>
  &nbsp;<input type="radio" name="p3_q5" value="0">hide
  &nbsp;<input type="radio" name="p3_q5" value="1">detect
@@ -228,6 +236,12 @@ Estos <ruby annotationId="A589"><rb>parásitos</rb><rt data-frequency="26">paras
 		email:<input type="email" id="email" name="email" style="width: 200px;" required><br>
     <button type="button" onclick="validateAndSubmit()" style="font-size: 20px;">Enviar (submit)</button>
     </form>
+<script>
+// Get the form element by its ID
+const quizForm = document.getElementById("quizForm");
+// Set the display property to 'none' to hide the form
+quizForm.style.display = "none";
+</script>
 
 <script>
 const translationsq = {
@@ -12139,7 +12153,7 @@ const instructions={
 	ell: `ΟΔΗΓΙΕΣ: Θα συμμετάσχετε σε ένα πείραμα ανάγνωσης. Πρώτα, επιλέξτε τη μητρική σας γλώσσα. Θα βρείτε διαφορετικά επίπεδα υποστήριξης για κατανόηση ανάγνωσης με μεταφράσεις στις λέξεις ή σε συνδέσμους με δυνατότητα κλικ. Θα μπορείτε να επιλέξετε την ποσότητα βοήθειας που χρειάζεστε ρυθμίζοντας το χειριστήριο στο επάνω μέρος. Στο τέλος της ανάγνωσης, απαντήστε στις 15 ερωτήσεις χωρίς να επιστρέψετε στην ιστορία. Οι απαντήσεις σας θα μας βοηθήσουν να κατανοήσουμε καλύτερα πώς μαθαίνετε μια νέα γλώσσα. Στη συνέχεια, δώστε το email ή το όνομά σας και κάντε κλικ στο "Αποστολή". Θα αναφέρουμε τον αριθμό των σωστών απαντήσεων και το πλήρες κείμενο με όλες τις μεταφράσεις. Σας ευχαριστούμε για τη συμμετοχή σας.`,
 	eus: `JARRAIBIDEAK: Irakurketa esperimentu batean parte hartuko duzu. Lehenik eta behin, hautatu zure jatorrizko hizkuntza. Itzulpenekin irakurtzeko ulermenerako laguntza maila desberdinak aurkituko dituzu hitzetan edo klika daitezkeen esteketan. Behar duzun laguntza kopurua aukeratu ahal izango duzu goiko aldean dagoen kontrola egokituz. Irakurketaren amaieran, mesedez, erantzun 15 galderei ipuinera itzuli gabe. Zure erantzunek hizkuntza berri bat nola ikasten duzun hobeto ulertzen lagunduko digute. Ondoren, eman zure helbide elektronikoa edo izena eta egin klik "Bidali". Erantzun zuzenen kopurua eta testu osoa itzulpen guztiekin jakinaraziko dugu. Eskerrik asko zure parte hartzeagatik.`,
 	fin: `OHJEET: Osallistut lukukokeeseen. Valitse ensin äidinkielesi. Löydät luetun ymmärtämisen tuen eri tasoilla käännöksillä sanoista tai klikattavista linkeistä. Voit valita tarvitsemasi avun määrän säätämällä yläreunassa olevaa säädintä. Lukemisen lopussa vastaa 15 kysymykseen palaamatta tarinaan. Vastauksesi auttavat meitä ymmärtämään paremmin, kuinka opit uuden kielen. Anna sitten sähköpostiosoitteesi tai nimesi ja napsauta "Lähetä". Ilmoitamme oikeiden vastausten määrän ja koko tekstin kaikkine käännöksineen. Kiitos osallistumisestasi.`,
-	fra: `INSTRUCTIONS : Vous participerez à une expérience de lecture. Tout d’abord, sélectionnez votre langue maternelle. Vous trouverez différents niveaux d'aide à la compréhension écrite avec des traductions sur les mots ou sur des liens cliquables. Vous pourrez choisir la quantité d'aide dont vous avez besoin en ajustant la commande en haut. En fin de lecture, veuillez répondre aux 15 questions sans revenir à l'histoire. Vos réponses nous aideront à mieux comprendre comment vous apprenez une nouvelle langue. Ensuite, indiquez votre e-mail ou votre nom et cliquez sur « Envoyer ». Nous communiquerons le nombre de réponses correctes et le texte intégral avec toutes les traductions. Merci pour votre participation.`,
+	fra: `INSTRUCTIONS : Vous participerez à une expérience de lecture. Tout d’abord, sélectionnez votre langue maternelle. Vous trouverez différents niveaux d'aide à la compréhension écrite avec des traductions sur les mots ou sur des liens cliquables. Vous pourrez choisir la quantité d'aide dont vous avez besoin en ajustant la commande en haut. En fin de lecture, veuillez répondre aux 15 questions sans revenir à l'histoire. Vos réponses nous aideront à mieux comprendre comment vous apprenez une nouvelle langue. Ensuite, indiquez votre e-mail ou votre nom et cliquez sur « Envoyer ». Nous communiquerons le nombre de réponses correctes et le texte intégral avec toutes les traductions. Merci pour votre participation.`,
 	hrv: `UPUTE: Sudjelovat ćete u eksperimentu čitanja. Prvo odaberite svoj materinji jezik. Pronaći ćete različite razine podrške za razumijevanje pročitanog s prijevodima na riječima ili na vezama koje je moguće kliknuti. Moći ćete odabrati količinu pomoći koja vam je potrebna podešavanjem kontrole na vrhu. Na kraju čitanja odgovorite na 15 pitanja bez vraćanja na priču. Vaši odgovori pomoći će nam da bolje razumijemo kako učite novi jezik. Zatim unesite svoju e-poštu ili ime i kliknite "Pošalji". Javit ćemo broj točnih odgovora i cijeli tekst sa svim prijevodima. Hvala vam na sudjelovanju.`,
 	ind: `PETUNJUK: Anda akan berpartisipasi dalam eksperimen membaca. Pertama, pilih bahasa ibu Anda. Anda akan menemukan berbagai tingkat dukungan untuk pemahaman bacaan dengan terjemahan kata-kata atau tautan yang dapat diklik. Anda akan dapat memilih jumlah bantuan yang Anda perlukan dengan menyesuaikan kontrol di bagian atas. Di akhir bacaan, harap jawab 15 pertanyaan tanpa kembali ke cerita. Jawaban Anda akan membantu kami lebih memahami cara Anda mempelajari bahasa baru. Kemudian, berikan email atau nama Anda dan klik "Kirim". Kami akan melaporkan jumlah jawaban yang benar dan teks lengkap dengan semua terjemahan. Terima kasih atas partisipasinya.`,
 	ita: `ISTRUZIONI: Parteciperai a un esperimento di lettura. Innanzitutto, seleziona la tua lingua madre. Troverai diversi livelli di supporto per la comprensione della lettura con traduzioni sulle parole o su link cliccabili. Potrai scegliere la quantità di aiuto di cui hai bisogno regolando il controllo in alto. Al termine della lettura rispondi alle 15 domande senza tornare alla storia. Le tue risposte ci aiuteranno a capire meglio come impari una nuova lingua. Quindi, fornisci la tua email o il tuo nome e fai clic su "Invia". Riporteremo il numero di risposte corrette e il testo completo con tutte le traduzioni. Grazie per la tua partecipazione`,
@@ -12164,6 +12178,10 @@ const instructions={
         const languageSelect = document.getElementById('language-select');
         const rubyElements = document.querySelectorAll('ruby');
         const instructionElement = document.getElementById('instructions');
+
+        function redirectToAnotherPage() {
+          window.location.href = "https://sgjimenezv.github.io/ruby/El_almohadon_de_plumas_RUBY_";
+        };
 
 		    // CHANGING LANGUAGE OF RUBY ANNOTATIONS
         languageSelect.addEventListener('change', () => {
@@ -12362,6 +12380,7 @@ const instructions={
 
           // Submit the form
           document.getElementById('quizForm').submit();
+          window.location.href = "https://sgjimenezv.github.io/ruby/El_almohadon_de_plumas_RUBY_.html?correct=5";
           return true;
         }
 
